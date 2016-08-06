@@ -27,4 +27,4 @@ Note: If a class inherits from multiple parents which in turn inherit from
 a common grandparent, then when checking for an attribute or method, all 
 parents will be checked before the grandparent.
 
-Note: All code is verbose and for pure educational self learning reasons.
+Note: ```All code is verbose and for pure educational self learning reasons.```
