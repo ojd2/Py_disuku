@@ -19,6 +19,7 @@ new-style. As a result, the following application is a verbose and small
 generic class composition experiment known as Disuku.  
 
 Note: New-style classes have these features which old-style classes don't:
+    
     * Universal base class called object.
     * Descriptors and properties. 
 
