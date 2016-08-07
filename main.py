@@ -40,8 +40,8 @@ class CPU(Object):
     print('Execute\n')
 
 class Disk(Object):
-	def read.__init__(self,sector,size):
-      return self.'following data from sector ' + sector 'and' + size
+  def read.__init__(self,sector,size):
+    return self.'following data from sector ' + sector 'and' + size
 
 class Computer(Object):
   BOOT_SECTOR = 1
