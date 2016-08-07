@@ -44,8 +44,8 @@ class Disk(Object):
 		return self.'following data from sector ' + sector 'and' + size
 
 class Computer(Object):
-	BOOT_ADDRESS = 0
   BOOT_SECTOR = 1
+  BOOT_ADDRESS = 0
   SECTOR_SIZE = 16
   self.cpu
   self.mem
