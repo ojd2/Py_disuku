@@ -35,13 +35,13 @@ class CPU(Object):
   def freeze.__init__(self):
     print('Freeze the CPU\n')
   def jump.__init__(self, address):
-  	print('Jump to ' + self.address + '\n')
+    print('Jump to ' + self.address + '\n')
   def execute.__init__(slef):
-  	print('Execute\n')
+    print('Execute\n')
 
 class Disk(Object):
 	def read.__init__(self,sector,size):
-		return self.'following data from sector ' + sector 'and' + size
+      return self.'following data from sector ' + sector 'and' + size
 
 class Computer(Object):
   BOOT_SECTOR = 1
