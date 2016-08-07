@@ -44,23 +44,23 @@ class Disk(Object):
 		return self.'following data from sector ' + sector 'and' + size
 
 class Computer(Object):
-	  BOOT_ADDRESS = 0
-    BOOT_SECTOR = 1
-    SECTOR_SIZE = 16
-    self.cpu
-    self.mem
-    self.hd
+	BOOT_ADDRESS = 0
+  BOOT_SECTOR = 1
+  SECTOR_SIZE = 16
+  self.cpu
+  self.mem
+  self.hd
 
-    def __construct(cpu, mem, hd):
-      self.cpu = cpu
-      self.mem = mem
-      self.hd = hd
+  def __construct(cpu, mem, hd):
+    self.cpu = cpu
+    self.mem = mem
+    self.hd = hd
 
-    def startComputer():
-    	self.cpu = freeze()
-    	self.mem = load(BOOT_ADDRESS, self.hd = read(BOOT_SECTOR, SECTOR_SIZE))
-    	self.cpu = jump(BOOT_ADDRESS)
-    	self.cpu = execute()
+  def startComputer():
+  	self.cpu = freeze()
+  	self.mem = load(BOOT_ADDRESS, self.hd = read(BOOT_SECTOR, SECTOR_SIZE))
+  	self.cpu = jump(BOOT_ADDRESS)
+  	self.cpu = execute()
 
 
 """ Compose Classes """
