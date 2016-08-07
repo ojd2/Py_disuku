@@ -57,10 +57,10 @@ class Computer(Object):
     self.hd = hd
 
   def startComputer():
-  	self.cpu = freeze()
-  	self.mem = load(BOOT_ADDRESS, self.hd = read(BOOT_SECTOR, SECTOR_SIZE))
-  	self.cpu = jump(BOOT_ADDRESS)
-  	self.cpu = execute()
+    self.cpu = freeze()
+    self.mem = load(BOOT_ADDRESS, self.hd = read(BOOT_SECTOR, SECTOR_SIZE))
+    self.cpu = jump(BOOT_ADDRESS)
+    self.cpu = execute()
 
 
 """ Compose Classes """
