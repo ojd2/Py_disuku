@@ -44,7 +44,7 @@ class Disk(Object):
 		return self.'following data from sector ' + sector 'and' + size
 
 class Computer(Object):
-	BOOT_ADDRESS = 0
+	  BOOT_ADDRESS = 0
     BOOT_SECTOR = 1
     SECTOR_SIZE = 16
     self.cpu
@@ -52,9 +52,9 @@ class Computer(Object):
     self.hd
 
     def __construct(cpu, mem, hd):
-    self.cpu = cpu
-    self.mem = mem
-    self.hd = hd
+      self.cpu = cpu
+      self.mem = mem
+      self.hd = hd
 
     def startComputer():
     	self.cpu = freeze()
